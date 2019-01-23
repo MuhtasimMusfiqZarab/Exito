@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Exito- Make Responsive Website</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand"><img src="img/logo.png" alt=""/></a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+            <li class="nav-item">
+              <a href="#connect" class="nav-link">Connect</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- - Image Slider -->
+
+    <div id="slides" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/background3.png" alt="" />
+          <div class="carousel-caption">
+            <h1 class="display-2">Bootstrap</h1>
+            <h3>Complete Website Layout</h3>
+
+            <a href="https://muhtasimmusfiqzarab.github.io/Contact-Manager/">
+              <button type="button" class="btn btn-outline-light btn-lg">
+                View Demo
+              </button>
+            </a>
+
+            <a href="#connect">
+              <button class="btn btn-primary btn-lg">Get Started</button>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item"><img src="img/reactjs.png" alt="" /></div>
+        <div class="carousel-item"><img src="img/nodejs.png" alt="" /></div>
+      </div>
+    </div>
+
+    <!-- - Jumbotron -->
+
+    <div class="container-fluid">
+      <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+          <p class="lead">
+            Our web design and development service allows individuals and
+            organizations to build their website using different frameworks,
+            libraries and technologies.
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+          <a href="#connect">
+            <button class="btn btn-outline-secondary btn-lg">Contact</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- - Welcome Section -->
+    <div id="services" class="container-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-12"><h1 class="display-4">Build With Ease</h1></div>
+        <hr />
+        <div class="col-12">
+          <p class="lead">
+            Our responsive design & development of websites is based on tools
+            and technologies like Bootstrap, React , Nodejs etc.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- - Three Column Section -->
+
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+          <p>Building with front-end library React</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fas fa-bold"></i>
+          <h3>Bootstrap</h3>
+          <p>Built with latest version of bootstrap</p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <i class="fab fa-node-js"></i>
+          <h3>Node-js</h3>
+          <p>Building with back-end technology</p>
+        </div>
+      </div>
+      <hr class="my-4" />
+    </div>
+
+    <!-- - Two Column Section -->
+
+    <div id="about" class="container-fluid padding">
+      <div class="row padding">
+        <div class="col-md-12 col-lg-6">
+          <h2>Adopting Latest Web Technologies</h2>
+          <p>
+            We implement front end CSS framework Bootstrap for our design. Thus
+            our design will be responsive. You can resize the browser window to
+            see the effect. The web pages will be displayed differently
+            depending on the screen size or viewing device.
+          </p>
+          <p>
+            We use front end library React which is a JavaScript library for
+            building User Interfaces.
+          </p>
+          <p>
+            We also use Node js for server side programming according to ours'
+            client need.
+          </p>
+          <br />
+          <!-- <a class="btn btn-primary" href="">Learn More</a> -->
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <img class="img-fluid" src="img/dev.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <hr class="my-4" />
+
+    <!-- - Fixed background -->
+
+    <figure>
+      <div class="fixed-wrap"><div id="fixed"></div></div>
+    </figure>
+
+    <!-- - Emoji Section -->
+    <button class="fun" data-toggle="collapse" data-target="#emoji">
+      Click for fun
+    </button>
+    <div id="emoji" class="collapse">
+      <div class="container-fluid padding">
+        <div class="row text-center">
+          <div class="col-sm-6 col-md-3">
+            <img class="gif" src="img/gif/panda.gif" alt="" />
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img class="gif" src="img/gif/poo.gif" alt="" />
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img class="gif" src="img/gif/unicorn.gif" alt="" />
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img class="gif" src="img/gif/chicken.gif" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- - Meet the team -->
+    <div id="team" class="container-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-12"><h1 class="display-4">Meet the Team</h1></div>
+        <hr />
+      </div>
+    </div>
+
+    <!-- - Cards -->
+    <div class="caontainer-fluid padding  ">
+      <div class="row padding">
+        <div class="col-xs-12 col-md-10 col-lg-6">
+          <div class="card ">
+            <img src="img/Team.png" alt="" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Muhtasim Musfiq Zarab</h4>
+              <p class="card-text">
+                I am currently working with different front and back-end web
+                technologies with 1 year of experience for designing front-end
+                web applications.
+              </p>
+              <a
+                href="https://www.linkedin.com/in/muhtasimmusfiqzarab/"
+                class="btn btn-outline-secondary"
+                >See Profile</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- - Two Column Section -->
+
+    <div class="container-fluid padding">
+      <div class="row padding">
+        <div class="col-md-12 col-lg-6">
+          <h2>My Philosophy</h2>
+
+          <p>
+            I know that greatness in a disruptive era requires bold ambition,
+            curious talent and a culture that believes we are smarter together.
+          </p>
+          <p>
+            The startup company approaches every challenge holistically, with
+            expertise in data creativity, media, technology, search and more. It
+            has the power to build our clients' brands like magic, we've got it
+            down to a science.
+          </p>
+          <br />
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <img class="img-fluid" src="img/last.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <hr class="my-4" />
+
+    <!-- - Connect -->
+    <div id="connect" class="container-fluid padding">
+      <div class="row text-center padding">
+        <div class="col-12"><h2>Connect</h2></div>
+        <div class="col-12 social padding">
+          <a href="https://www.facebook.com/muhtasimmusfiqzarab">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/muhtasimmusfiqzarab/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.instagram.com/muhtasim_musfiq_zarab/">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCE6MQlAfVF4l7jh-o2o95Sg?view_as=subscriber"
+          >
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- - Footer -->
+    <footer>
+      <div class="container-fluid padding">
+        <div class="row text-center">
+          <div class="col-md-6">
+            <img src="img/logo.png" alt="" />
+            <hr class="light" />
+            <p>+8801685055749</p>
+            <p>musfiqzarab@iut-dhaka.edu</p>
+            <p>Sector-6,Uttara</p>
+            <p>Dhaka-1230</p>
+          </div>
+          <div class="col-md-6">
+            <hr class="light" />
+            <h5>Our Hours</h5>
+            <hr class="light" />
+            <p>Sat-Thursday: 9am-5pm</p>
+            <p>Friday: Closed</p>
+          </div>
+          <div class="col-12">
+            <hr class="light" />
+            <h5>&copy;exito.com.bd</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
